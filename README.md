@@ -8,16 +8,16 @@ Pi-Hole admin dashboard.
 
 # Required 
 
-You need to install bc and dig. For Ubuntu:
+You need to install `bc` and `dig`. For Ubuntu:
 
 ```
- $ sudo apt-get install bc dnsutils
+sudo apt-get install -y bc dnsutils
 ```
 
 # Utilization
 
 ``` 
- $ git clone --depth=1 https://github.com/cleanbrowsing/dnsperftest/
- $ cd dnsperftest
- $ bash ./dnstest.sh 
+git clone https://github.com/iamskok/dnsperftest.git
+cd dnsperftest
+bash ./dnstest.sh
 ```
