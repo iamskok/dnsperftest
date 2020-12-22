@@ -2,7 +2,7 @@
 
 NAMESERVER=127.0.0.1
 RESULT=result.txt
-LIST=test.txt
+LIST=domain_list.txt
 DIVIDER='==========================================================================='
 
 command -v bc > /dev/null ||
